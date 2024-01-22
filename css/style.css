@@ -95,10 +95,13 @@ h2{
 }
 #tin-tuc{
 	text-decoration:none;
-	color:#464646
+	color:#
 }
-#tin-tuc:ahover{
+#tin-tuc a:hover{
 	color:#FCC113;
+}
+#tin-tuc a{text-decoration:none
+	
 }
 #page-header{
 	width: 100%; min-height: 300px; background: url(../images/pageheader.png); background-repeat: no-repeat; background-size: cover; background-position: center
