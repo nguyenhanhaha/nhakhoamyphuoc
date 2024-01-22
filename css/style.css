@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+	font-family: 'Roboto', sans-serif; color:#666666; font-size:16px
+}
+.top-bar{
+	width: 100%; height:60px; line-height: 60px;
+
+}
+.top-bar a{
+	color:white
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 8px 20px; border-radius: 5px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	background-color: #056CB6; color: #FFC113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6; padding-bottom: 0; padding-top: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid #FFFFFF
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113
+}
+
+main{
+	width: 100%; min-height: 600px
+}
+footer{
+	width: 100%; min-height: 300px
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113
+}
+.navbar-nav .nav-item .nav-link:hover{
+color: #FFC113	
+}
+.bottom-bar{
+	width:100%; height:50px; line-height: 50px
+}
+#services a{
+	text-decoration: none;
+	color: #464646
+}
+#services a:hover{
+	color: #FFC113	
+}
+/*main .container{
+	display: 
+}*/
+h2{
+	color: #2F80ED
+}
+.page-header{
+	width: 100%; min-height: 300px
+}
+#why{
+	width: 100%; min-height: 400px; background: url("../images/why.jpg") ; background-repeat: no-repeat; background-size: cover; background-positon: center top
+}
+#client .hinh{
+	width:100%; min-height:100px; position:relative
+}
+#client .truoc{
+	position:absolute; left:0; top:0; padding:8px; background-color: rgba(231, 231, 231, 0.60);color:rgb(96,96,96,1.00)	
+}#client .sau{
+	position:absolute; left:50%; top:0; padding:8px; background-color: rgba(231, 231, 231, 0.60);color:rgb(96,96,96,1.00)	
+}
+#cam-nhan .noidung img{
+	width:80px; height:80px
+}
+#cam-nhan .noidung{
+	padding:30px; display:flex; flex-direction:column; justify-content:center; align-items:center
+}
+#thong-tin .container{
+	display:flex;
+	justify-content:space-between;
+	align-item:center
+}
+#map .img{
+	width:500px; height:500px
+}
+#tin-tuc{
+	text-decoration:none;
+	color:#464646
+}
+#tin-tuc:ahover{
+	color:#FCC113;
+}
+#page-header{
+	width: 100%; min-height: 300px; background: url(../images/pageheader.png); background-repeat: no-repeat; background-size: cover; background-position: center
+}
